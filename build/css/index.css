@@ -1,0 +1,576 @@
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  color: deepskyblue; }
+
+ul {
+  list-style-type: none; }
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+  background-color: white;
+  top: 0;
+  box-sizing: border-box; }
+
+main {
+  position: relative;
+  top: 80px;
+  padding-bottom: 60px; }
+
+body {
+  font-family: 'PT Sans', sans-serif; }
+
+footer {
+  padding: 30px 0;
+  background-color: #f2f2f2;
+  margin-top: 60px; }
+
+.top {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 12;
+  max-width: 100%; }
+  .top__logo {
+    padding-left: 10px;
+    position: relative; }
+    .top__logo__logos {
+      display: -webkit-box;
+      display: flex; }
+      .top__logo__logos__name {
+        text-transform: uppercase;
+        color: #00bfff;
+        font-size: 45px;
+        font-weight: bolder;
+        margin-left: -15px;
+        padding-right: 15px; }
+    .top__logo img {
+      width: 100px;
+      height: 60px; }
+    .top__logo__text {
+      font-weight: bold;
+      position: relative;
+      bottom: 15px;
+      left: 90px; }
+  .top__schedule {
+    margin-top: 5px;
+    padding-left: 15px;
+    margin-left: -15px; }
+    .top__schedule__bold {
+      font-weight: bolder;
+      margin-top: 15px; }
+  .top__links {
+    position: relative;
+    top: 5px;
+    padding-left: 25px;
+    margin-left: -15px; }
+    .top__links__user {
+      color: deepskyblue; }
+    .top__links__room {
+      position: relative;
+      bottom: 18px;
+      text-decoration: underline; }
+  .top__contacts {
+    margin-top: 5px;
+    position: relative;
+    padding-left: 15px;
+    margin-left: -15px; }
+    .top__contacts__mail {
+      font-weight: lighter;
+      text-decoration: underline; }
+    .top__contacts__hidden-contacts {
+      position: absolute;
+      top: 70px;
+      box-shadow: 2px 3px 3px #f2f2f2;
+      padding: 25px;
+      background-color: white;
+      display: none; }
+      .top__contacts__hidden-contacts__vodafone__for-hidden {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px; }
+      .top__contacts__hidden-contacts__kyivstar__for-hidden {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px; }
+      .top__contacts__hidden-contacts__lifecell__for-hidden {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px; }
+    .top__contacts__connection {
+      display: -webkit-box;
+      display: flex;
+      position: relative;
+      right: 50px;
+      top: 20px; }
+      .top__contacts__connection__facebook {
+        width: 30px;
+        height: 27px;
+        margin-right: 5px; }
+      .top__contacts__connection__phone {
+        width: 30px;
+        height: 27px;
+        margin-right: 20px; }
+      .top__contacts__connection__phone-number {
+        font-weight: bolder;
+        margin-top: 10px; }
+      .top__contacts__connection__dropdown {
+        margin-top: 5px;
+        margin-left: 3px;
+        background-color: #f2f2f2;
+        border-radius: 50%; }
+      .top__contacts__connection__dropdown:hover {
+        background-color: deepskyblue; }
+  .top__bucket-finder img {
+    width: 40px;
+    height: 40px;
+    padding-top: 30px; }
+
+.navigation {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 5px 85px;
+  border-top: 2px solid #f2f2f2;
+  box-sizing: border-box; }
+  .navigation li {
+    border-top: 2px solid #f2f2f2;
+    padding: 10px 40px;
+    margin-top: -7px; }
+  .navigation li:hover {
+    color: deepskyblue;
+    border-top-color: deepskyblue; }
+
+.face {
+  background-image: url("https://images.ctfassets.net/3cttzl4i3k1h/6RyEqGe6IMYOEK2oUSGQg8/dd14df0b301d8b8e46e2cefb660030f2/blog-featured-the-future-office-is-co-located.jpg?w=1400&h=600&q=80&fm=&f=&fit=fill");
+  background-size: cover;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 120px;
+  color: white;
+  box-sizing: border-box; }
+  .face__main {
+    font-size: 36px;
+    text-shadow: 2px 3px 5px black;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px black; }
+  .face__secondary {
+    font-size: 18px;
+    font-weight: lighter;
+    text-shadow: 1px 2px 4px black;
+    border-top: 3px solid white;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.2); }
+  .face__order {
+    width: 150px;
+    background-color: deepskyblue;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: lighter;
+    border-radius: 2px;
+    color: white;
+    border: 1px solid deepskyblue; }
+  .face__order:hover {
+    background-color: white;
+    color: deepskyblue; }
+
+.call-now {
+  display: block;
+  color: white;
+  background-color: deepskyblue;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 12px;
+  border-radius: 50%;
+  position: relative;
+  right: 150px;
+  bottom: 40px;
+  float: right;
+  z-index: 12; }
+  .call-now__phone {
+    width: 20px;
+    height: 20px;
+    padding-top: 7px; }
+
+.call-now:hover {
+  background-color: #f2f2f2;
+  color: deepskyblue; }
+
+.product {
+  padding-top: 20px;
+  text-align: center;
+  box-sizing: border-box; }
+  .product__headers {
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-weight: bold; }
+  .product__cards {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0 100px; }
+    .product__cards__left {
+      width: 300px;
+      height: 260px;
+      border: 2px solid beige;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      margin-bottom: 20px; }
+      .product__cards__left img {
+        width: 40px;
+        height: 50px;
+        padding-left: 20px;
+        padding-top: 17px; }
+      .product__cards__left__text {
+        text-align: left;
+        padding-right: 10px; }
+        .product__cards__left__text__subheader {
+          text-transform: uppercase;
+          font-weight: bold;
+          padding-bottom: 10px; }
+        .product__cards__left__text li {
+          padding-bottom: 10px; }
+    .product__cards__left:hover {
+      border: 2px solid #a64dff; }
+    .product__cards__center {
+      padding-bottom: 20px; }
+      .product__cards__center__container {
+        display: block;
+        border: 2px solid beige;
+        width: 300px;
+        height: 260px; }
+        .product__cards__center__container__center {
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-pack: justify;
+          justify-content: space-between; }
+          .product__cards__center__container__center img {
+            width: 50px;
+            height: 50px;
+            padding-left: 5px;
+            padding-top: 17px; }
+          .product__cards__center__container__center__subheader {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 17px;
+            padding-right: 55px; }
+        .product__cards__center__container__for-center-text {
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          flex-flow: row;
+          justify-content: space-around;
+          margin-top: -35px; }
+          .product__cards__center__container__for-center-text__right {
+            text-align: left; }
+            .product__cards__center__container__for-center-text__right li {
+              padding-bottom: 10px; }
+          .product__cards__center__container__for-center-text__left {
+            text-align: left; }
+            .product__cards__center__container__for-center-text__left li {
+              padding-bottom: 10px; }
+      .product__cards__center__subheader {
+        text-transform: uppercase;
+        font-weight: bold; }
+    .product__cards__center:hover {
+      border: 2px solid #a64dff; }
+    .product__cards__right {
+      border: 2px solid beige;
+      text-align: center;
+      width: 300px;
+      height: 260px;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding-bottom: 10px; }
+      .product__cards__right img {
+        width: 50px;
+        height: 50px;
+        padding-left: 15px;
+        padding-top: 17px; }
+      .product__cards__right__text {
+        text-align: left; }
+        .product__cards__right__text__subheader {
+          padding-bottom: 10px;
+          text-transform: uppercase;
+          font-weight: bold; }
+        .product__cards__right__text li {
+          padding-bottom: 10px; }
+    .product__cards__right:hover {
+      border: 2px solid #a64dff; }
+
+.about {
+  padding: 20px 140px 20px 165px; }
+  .about__headers {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px; }
+  .about__repeat {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0px; }
+
+.news {
+  display: block;
+  border-top: 2px solid #f2f2f2;
+  box-sizing: border-box;
+  text-align: center; }
+  .news__headers {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0 10px 0; }
+  .news__button {
+    border: 2px solid deepskyblue;
+    padding: 5px 20px;
+    margin: 25px 0;
+    background-color: white;
+    color: deepskyblue;
+    border-radius: 2px; }
+  .news__button:hover {
+    background-color: deepskyblue;
+    color: white; }
+  .news__cards {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 140px 5px 140px;
+    box-sizing: border-box; }
+    .news__cards__card {
+      text-align: center;
+      padding: 20px 30px;
+      margin-top: 20px;
+      margin-right: 10px; }
+      .news__cards__card__date {
+        padding-bottom: 20px;
+        color: rgba(0, 0, 0, 0.4); }
+    .news__cards__card:hover {
+      border-top: 2px solid deepskyblue;
+      box-shadow: 1px 2px 6px #f2f2f2;
+      color: deepskyblue; }
+
+.bottom {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 12; }
+  .bottom__call-now {
+    display: block;
+    color: white;
+    background-color: deepskyblue;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 12px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 120px;
+    left: 190px; }
+  .bottom__call-now:hover {
+    color: deepskyblue;
+    background-color: honeydew; }
+  .bottom__logo {
+    padding-left: 10px; }
+    .bottom__logo__logos {
+      display: -webkit-box;
+      display: flex; }
+      .bottom__logo__logos__name {
+        text-transform: uppercase;
+        color: #00bfff;
+        font-size: 45px;
+        font-weight: bolder; }
+    .bottom__logo img {
+      width: 100px;
+      height: 60px; }
+    .bottom__logo__text {
+      font-weight: bold;
+      position: relative;
+      left: 97px;
+      bottom: 15px; }
+  .bottom__schedule {
+    margin-top: 5px; }
+    .bottom__schedule__bold {
+      margin-top: 35px; }
+  .bottom__links {
+    display: -webkit-box;
+    display: flex; }
+    .bottom__links__first {
+      display: block;
+      text-align: left;
+      margin-top: 0px; }
+      .bottom__links__first li {
+        text-decoration: underline;
+        padding-bottom: 18px; }
+  .bottom__contacts {
+    margin-top: -30px;
+    position: relative;
+    display: block; }
+    .bottom__contacts__contact-link {
+      text-decoration: underline;
+      margin-top: 37px;
+      margin-left: 80px; }
+    .bottom__contacts__hidden-contacts {
+      position: absolute;
+      top: 70px;
+      box-shadow: 2px 3px 3px #f2f2f2;
+      padding: 25px;
+      background-color: white;
+      display: none; }
+      .bottom__contacts__hidden-contacts__vodafone__for-hidden {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px; }
+      .bottom__contacts__hidden-contacts__kyivstar__for-hidden {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px; }
+      .bottom__contacts__hidden-contacts__lifecell__for-hidden {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7px; }
+    .bottom__contacts__connection {
+      display: -webkit-box;
+      display: flex;
+      position: relative;
+      right: 50px;
+      top: 20px; }
+      .bottom__contacts__connection__facebook {
+        width: 30px;
+        height: 27px;
+        margin-right: 5px; }
+      .bottom__contacts__connection__phone {
+        width: 30px;
+        height: 27px;
+        margin-right: 20px; }
+      .bottom__contacts__connection__phone-number {
+        font-weight: bolder;
+        margin-top: 10px; }
+      .bottom__contacts__connection__dropdown {
+        margin-top: 5px;
+        margin-left: 3px;
+        background-color: white;
+        border-radius: 50%; }
+      .bottom__contacts__connection__dropdown:hover {
+        background-color: deepskyblue; }
+
+@media screen and (max-width: 738px) {
+  main {
+    position: static; }
+  header {
+    position: relative;
+    width: 100%; }
+  .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    padding: 0 20px;
+    -webkit-box-align: center;
+    align-items: center; }
+    .top__schedule {
+      margin-top: -20px; }
+      .top__schedule__regular {
+        text-align: center; }
+      .top__schedule__bold {
+        text-align: center; }
+    .top__contacts {
+      padding-left: 50px;
+      margin-top: -5px; }
+      .top__contacts__connection {
+        margin-top: -15px; }
+    .top__bucket-finder__bucket {
+      width: 30px;
+      height: 40px;
+      padding-top: 15px; }
+  .navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    margin: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 70%; }
+    .navigation li {
+      width: 100%; }
+  .call-now {
+    top: 20px; }
+  .face {
+    display: block; }
+  .product {
+    margin-top: 50px;
+    padding-top: 70px; }
+    .product__cards {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-flow: column;
+      margin: 0;
+      -webkit-box-align: center;
+      align-items: center; }
+      .product__cards__left {
+        padding-bottom: 10px; }
+  .about {
+    padding: 0;
+    text-align: center; }
+  .news__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    margin: 10px; }
+  .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    padding: 0;
+    -webkit-box-align: center;
+    align-items: center; }
+    .bottom__schedule {
+      padding-top: 30px;
+      text-align: center; }
+    .bottom__name {
+      margin-left: 110px;
+      margin-top: -90px; }
+    .bottom__links {
+      text-align: center; }
+    .bottom__contacts__connection {
+      right: 0; }
+    .bottom__call-now {
+      left: 0px; }
+    .bottom__logo__text {
+      left: 100px; } }
