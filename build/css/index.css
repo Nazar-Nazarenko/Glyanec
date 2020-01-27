@@ -192,7 +192,8 @@ footer {
     font-weight: lighter;
     border-radius: 2px;
     color: white;
-    border: 1px solid deepskyblue; }
+    border: 1px solid deepskyblue;
+    margin-top: 30px; }
   .face__order:hover {
     background-color: white;
     color: deepskyblue; }
@@ -282,7 +283,8 @@ footer {
             text-transform: uppercase;
             font-weight: bold;
             margin-top: 17px;
-            padding-right: 55px; }
+            padding-right: 55px;
+            padding-bottom: 10px; }
         .product__cards__center__container__for-center-text {
           display: -webkit-box;
           display: flex;
@@ -526,9 +528,10 @@ footer {
     -webkit-box-align: center;
     align-items: center;
     padding: 10px;
-    width: 70%; }
+    width: 100%; }
     .navigation li {
-      width: 100%; }
+      width: 100%;
+      text-align: center; }
   .call-now {
     top: 20px; }
   .face {
@@ -571,6 +574,7 @@ footer {
     .bottom__contacts__connection {
       right: 0; }
     .bottom__call-now {
-      left: 0px; }
+      left: 0;
+      top: 0; }
     .bottom__logo__text {
       left: 100px; } }
