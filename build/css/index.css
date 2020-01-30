@@ -34,25 +34,27 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 0 100px;
+  position: relative;
   box-sizing: border-box;
   z-index: 12;
-  width: 100%; }
+  max-width: 100%; }
   .top__logo {
+    padding-left: 10px;
+    position: relative;
     display: -webkit-box;
     display: flex; }
-    .top__logo__logos img {
+    .top__logo__signature__name {
+      text-transform: uppercase;
+      color: #00bfff;
+      font-size: 45px;
+      font-weight: bolder;
+      padding-right: 15px; }
+    .top__logo__signature__text {
+      font-weight: bold;
+      margin-top: -10px; }
+    .top__logo img {
       width: 100px;
       height: 60px; }
-    .top__logo__signature {
-      display: block; }
-      .top__logo__signature__name {
-        text-transform: uppercase;
-        color: #00bfff;
-        font-size: 42px;
-        font-weight: bolder; }
-      .top__logo__signature__text {
-        font-weight: bold;
-        margin-top: -10px; }
   .top__schedule {
     margin-top: 5px;
     padding-left: 15px;
@@ -400,23 +402,20 @@ footer {
     color: deepskyblue;
     background-color: honeydew; }
   .bottom__logo {
-    padding-left: 10px; }
-    .bottom__logo__logos {
-      display: -webkit-box;
-      display: flex; }
-      .bottom__logo__logos__name {
-        text-transform: uppercase;
-        color: #00bfff;
-        font-size: 45px;
-        font-weight: bolder; }
+    padding-left: 10px;
+    display: -webkit-box;
+    display: flex; }
+    .bottom__logo__signature__name {
+      text-transform: uppercase;
+      color: #00bfff;
+      font-size: 45px;
+      font-weight: bolder; }
+    .bottom__logo__signature__text {
+      font-weight: bold;
+      margin-top: -10px; }
     .bottom__logo img {
       width: 100px;
       height: 60px; }
-    .bottom__logo__text {
-      font-weight: bold;
-      position: relative;
-      left: 97px;
-      bottom: 15px; }
   .bottom__schedule {
     margin-top: 5px; }
     .bottom__schedule__bold {
@@ -496,7 +495,7 @@ footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-flow: column;
-    padding: 0 10px;
+    padding: 0 20px;
     -webkit-box-align: center;
     align-items: center; }
     .top__schedule {
@@ -508,6 +507,7 @@ footer {
         text-align: center;
         margin-top: -5px; }
     .top__contacts {
+      padding-left: 50px;
       margin-top: -5px; }
       .top__contacts__connection {
         margin-top: -15px; }
@@ -525,7 +525,7 @@ footer {
     padding: 10px;
     width: 90%; }
     .navigation li {
-      width: 100%;
+      width: 90%;
       text-align: center; }
   .call-now {
     top: 20px; }
